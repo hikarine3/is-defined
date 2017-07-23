@@ -2,8 +2,8 @@
 npm install hikaine3/is-defined
 
 # Purpose
-It is daunting task to check undefined variable especially when the item is nested object.
-Fundamental update of JS is ideal but this will help the problem until it is solved by JS itself.
+It is daunting task to check undefined variable especially when the item has multiple tiers as an object.
+This module is for reducing the conding for it.
 
 # Usage
 If the item's depth is only 1 depth or 0 depth, you should use this way.
