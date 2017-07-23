@@ -1,9 +1,14 @@
-# isDefined
+# How to install
+npm install hikaine3/is-defined
+
+# Purpose
 It is daunting task to check undefined variable especially when the item is nested object.
 Fundamental update of JS is ideal but this will help the problem until it is solved by JS itself.
 
-If the item's depth is only 1 depth, you should use this way.
-if (isDefined(depth0.depth1) ) 
+# Usage
+If the item's depth is only 1 depth or 0 depth, you should use this way.
+if (isDefined(depth0)) 
+if (isDefined(depth0.depth1)) 
 
 If the item's depth is more than 1 depth, you should use this way.
 if (isDefined(depth0, "depth1.depth2.depth3"))
