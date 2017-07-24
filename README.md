@@ -7,14 +7,18 @@ This module is for reducing the conding for it.
 
 # Usage
 If the item's depth is only 1 depth or 0 depth, you should use this way.
+
 if (isDefined(depth0)) 
+
 if (isDefined(depth0.depth1)) 
 
 If the item's depth is more than 1 depth, you should use this way.
+
 if (isDefined(depth0, "depth1.depth2.depth3"))
 
 # Example from test/index.js
-import isDefined from "../distribution/index";
+import isDefined from "@hikarine3/is-defined";
+
 let assert = require('assert');
 
 let user = {depth1: {depth2: "test"} };
