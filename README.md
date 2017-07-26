@@ -30,3 +30,12 @@ assert(isDefined(user));
 assert(isDefined(user, 'depth1.depth3.fdsafads') === false);
 
 assert(isDefined(user, 'depth1.depth2') );
+
+# Real use case
+https://www.travelplan.world/
+Constructed using meteor.js
+
+# Created by
+Hajime Kurita, an adminstrator of https://sakuhindb.com/ , http://minakoe.jp/ and so on
+https://twitter.com/hikarine3
+https://en.sakuhindb.com/pe/Administrator/
