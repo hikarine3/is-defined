@@ -1,7 +1,7 @@
 export default (obj, key) => {
   if (typeof key !== "undefined" && key) {
     return key.split(".").every(function(x) {
-      if(typeof obj != "object" || obj === null || !x in obj ) {
+      if(typeof obj != "object" || obj === null || !x in obj || obj[x] === null) {
         return false;
       } else {
         obj = obj[x];

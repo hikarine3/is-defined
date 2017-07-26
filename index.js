@@ -9,7 +9,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 exports.default = function (obj, key) {
   if (typeof key !== "undefined" && key) {
     return key.split(".").every(function (x) {
-      if ((typeof obj === "undefined" ? "undefined" : _typeof(obj)) != "object" || obj === null || !x in obj) {
+      if ((typeof obj === "undefined" ? "undefined" : _typeof(obj)) != "object" || obj === null || !x in obj || obj[x] === null) {
         return false;
       } else {
         obj = obj[x];
