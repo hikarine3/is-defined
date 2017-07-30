@@ -12,4 +12,3 @@ assert(isDefined(user, 'depth1.depth2null') === false);
 assert(isDefined(user, 'depth1.depth3.fdsafads') === false);
 
 assert(isDefined(user, 'depth1.depth2') );
-
