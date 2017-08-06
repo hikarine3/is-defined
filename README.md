@@ -1,6 +1,15 @@
 # How to install
 npm install hikaine3/is-defined
 
+# How to test
+git clone git@github.com:hikarine3/is-defined.git;
+
+cd is-defined;
+
+npm install;
+
+npm test;
+
 # Purpose
 It is daunting task to check undefined variable especially when the item has multiple tiers as an object.
 This module is for reducing the conding for it.
